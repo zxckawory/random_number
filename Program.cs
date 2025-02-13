@@ -1,5 +1,5 @@
 Random rnd = new Random();
-int number = rnd.Next(0, 101); 
+int number = rnd.Next(1, 101); 
 Console.WriteLine("Давайте сыграем в игру, ваша задачу угадать число от 1 до 100 за 5 попыток!");
 Console.WriteLine("Первая попытка, введите число");
 int a = Convert.ToInt32(Console.ReadLine());
